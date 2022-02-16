@@ -3,7 +3,7 @@
  <!-- Question 3 -->
 
 <?php
-
+// On définit la classe du guerrier
 class Guerrier {
 
     private $nom;
@@ -45,7 +45,7 @@ class Guerrier {
         $this->arme = $arme;
     }
 
-    #Guetters
+    //  Guetters
 
     public function getNom()
     {
@@ -72,7 +72,7 @@ class Guerrier {
         return $this->arme;
     }
 
-    # methods
+    // methods
 
     public function levelUp()
     {
